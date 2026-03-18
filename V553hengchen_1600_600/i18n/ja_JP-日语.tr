@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Driving records">走行記録</string>
+	<string name="playback">ビデオ再生</string>
+	<string name="Audio output">オーディオ出力</string>
+	<string name="Bluetooth music">音楽</string>
+	<string name="WiFi video">WIFIビデオ</string>
+	<string name="Tips">ヒント</string>
+	<string name="connected">接続済み</string>
+	<string name="device">デバイス</string>
+	<string name="confirm">確認</string>
+	<string name="cancel">キャンセル</string>
+	<string name="Setting">設定</string>
+	<string name="connected_carplay_tip">CarPlayに接続しました</string>
+	<string name="connected_android_auto_tip">Android Autoに接続</string>
+	<string name="Connected CarPlay device">CarPlayデバイスが接続されている</string>
+	<string name="Connected Android Auto device">Android Autoデバイスが接続されている</string>
+	<string name="Connected AirPlay device">AirPlayデバイスが接続されている</string>
+	<string name="Connected Miracast device">Miracastデバイスが接続されている</string>
+	<string name="Connected Aicast device">Aicastデバイスが接続されている</string>
+	<string name="change_carplay_tip">「Carplay」モードに切り替えますか？</string>
+	<string name="change_auto_tip">「Android Auto」
+モードに切り替えますか？</string>
+	<string name="change_airplay_tip">「Airplay」モードに切り替えますか？</string>
+	<string name="change_miracast_tip">「Miracast」モードに切り替えますか？</string>
+	<string name="change_btmusic_tip">Bluetooth音楽
+モードに切り替えますか？</string>
+	<string name="change_wifivideo_tip">「WIFIビデオ」
+モードに切り替えますか？</string>
+	<string name="change_aicast_tip">「Aicast」モードに切り替えますか？</string>
+	<string name="Please use your phone to connect to the original car Bluetooth">あなたの携帯電話を使って原車のBluetoothに接続してください</string>
+	<string name="Audio output from the speaker">スピーカーからのオーディオの出力</string>
+	<string name="auxtips">AUXからオーディオを出力</string>
+	<string name="resolution ratio">解像度</string>
+<string name="set_resolution ratio">解像度</string>
+	<string name="Loop recording">ループ録画</string>
+	<string name="set_Loop recording">ループ録画</string>
+	<string name="sound recording">レコーデ-
+ィング</string>
+	<string name="set_sound recording">レコーディング</string>
+	<string name="assist switch">補助ボタン</string>
+	<string name="set_assist switch">補助ボタン</string>
+	<string name="mirror image">背面プルミ-
+ラーリング</string>
+	<string name="set_mirror image">ミラーリング</string>
+	<string name="screen saver">スクリーン-
+セーバー</string>
+	<string name="set_screen saver">スクリーンセーバー</string>
+	<string name="Driving Position">運転位置</string>
+	<string name="set_Driving Position">運転位置</string>
+	<string name="Split screen mode">Carplay/Auto
+螢幕模式</string>
+	<string name="set_Split screen mode">CarPlay/Auto 画面分割モード</string>
+	<string name="Reverse line calibration">バックライ-
+ンキ-ャリブ-
+レーション</string>
+	<string name="set_Reverse line calibration">バックラインキャリブレーション</string>
+	<string name="Language settings">言語設定</string>
+	<string name="set_Language settings">言語設定</string>
+	<string name="time setting">時刻設定</string>
+	<string name="set_time setting">時刻設定</string>
+	<string name="clear connect record">接続レコ-
+ードの消去</string>
+	<string name="set_clear connect record">接続レコードの消去</string>
+	<string name="setclear connect record">接続レコードの消去</string>
+	<string name="touch sound">タッチトーン</string>
+	<string name="set_touch sound">タッチトーン</string>
+	<string name="Format memory card">フォーマット</string>
+	<string name="set_Format memory card">フォーマット</string>
+	<string name="Factory Default">設定を-
+復元する</string>
+	<string name="set_Factory Default">設定を復元する</string>
+	<string name="Software version">バージョン</string>
+	<string name="set_Software version">バージョン</string>
+	<string name="mcu Upgrade">mcu アッ-
+プグレード</string>
+	<string name="set_mcu Upgrade">MCU アップグレード</string>
+	<string name="mcu_upgrade_yes">アップグレードファイルが見つかりました。
+アップグレードしますか？</string>
+	<string name="mcu_upgrade_no">アップグレードファイルが見
+つかりませんでした</string>
+	<string name="mcu_upgrade_done">アップグレード完了！</string>
+	<string name="resolution ratio">解像度</string>
+	<string name="Loop recording">ループ録画</string>
+	<string name="sound recording">レコーデ-
+ィング</string>
+	<string name="assist switch">補助ボタン</string>
+	<string name="mirror image">背面プルミ-
+ラーリング</string>
+	<string name="screen saver">スクリーン-
+セーバー</string>
+	<string name="Driving Position">運転位置</string>
+	<string name="Split screen mode">Carplay/Auto
+螢幕模式</string>
+	<string name="Reverse line calibration">バックライ-
+ンキ-ャリブ-
+レーション</string>
+	<string name="Language settings">言語設定</string>
+	<string name="time setting">時刻設定</string>
+	<string name="clear connect record">接続レコ-
+ードの消去</string>
+	<string name="setclear connect record">接続レコードの消去</string>
+	<string name="touch sound">タッチトーン</string>
+	<string name="Format memory card">フォーマット</string>
+	<string name="Factory Default">設定を-
+復元する</string>
+	<string name="Software version">バージョン</string>
+	<string name="mcu Upgrade">mcu アッ-
+プグレード</string>
+	<string name="Debug">デバッグ</string>
+	<string name="Conn_step">接続手順：</string>
+	<string name="Conn_tips">ヒント：</string>
+	<string name="cp_step1">1.Carplayオプションの選択</string>
+	<string name="cp_step2">2.iPhone携帯電話を使ってBluetoothに接続する。Bluetoothの名前は：</string>
+	<string name="cp_step3">3.携帯電話のポップアップ画面に「iPhoneを使ったCarplay車載？」と表示されたときにCarplay車載オプションを選択する</string>
+	<string name="cp_tips1">1.初回接続待ち時間が長い</string>
+	<string name="cp_tips2">2.アイフォンのみ対応</string>
+	<string name="cp_tips3">3.接続に成功すると、Bluetoothが自動的に切断されます</string>
+	<string name="aa_step1">1.Android Autoオプションの選択</string>
+	<string name="aa_step2">2.携帯電話でBluetoothに接続する。Bluetoothの名前は：</string>
+	<string name="aa_mc_tips1">1.Android携帯電話のみ対応</string>
+	<string name="aa_tips2">2.Autoアプリケーションと依存アプリケーションが最新バージョンであることを確認してください</string>
+	<string name="ap_step1">1.iPhoneの携帯電話でWiFiに接続してください。WiFiの名前は：</string>
+	<string name="ap_step2">2.WiFiパスワード：</string>
+	<string name="ap_step3">3.iPhone携帯電話コントロールセンターの画面ミラーで選択：</string>
+	<string name="ap_tips1">1.iPhone対応携帯電話のみ</string>
+	<string name="mc_step1">1.Android携帯電話を開き、システム設定画面に進む</string>
+	<string name="mc_step2">2.より多くの接続を見つけ、携帯電話の画面を開く</string>
+	<string name="mc_step3">3.スキャン待ち、接続デバイス名は：</string>
+	<string name="ac_step1">QRコードをスキャンしAPKをダウンロード、AICASTをインストールします</string>	<string name="ac_step2">デバイスを追加をクリック</string>
+	<string name="ac_step3">スキャン待ち、接続デバイス名：</string>
+	<string name="Turn on device:">オープンデバイス：</string>
+	<string name="instructions">使用方法</string>
+	<string name="fmtip">カーラジオを上記の周波数に合わせると、デバイス上の音声を再生することができます</string>
+	<string name="horn">ラッパ</string>
+	<string name="sure">を選択して、</string>
+	<string name="Restore factory settings">設定を復元する</string>
+	<string name="set_Restore factory settings">設定を復元する</string>
+	<string name="Are you sure you want to restore the factory settings">出荷時設定を
+復元しますか？</string>
+	<string name="1080P">1080P</string>
+	<string name="2K">2K</string>
+	<string name="2.5K">2.5K</string>
+	<string name="4K">4K</string>
+	<string name="720P_720P">前720 P+後720 P</string>
+	<string name="1080P_1080P">前1080 P+後1080 P</string>
+	<string name="2_5K_720P">前2.5 K+後720 P</string>
+	<string name="1min">1分</string>
+	<string name="3min">3分</string>
+	<string name="5min">5分</string>
+	<string name="close">閉じる</string>
+	<string name="open">開く</string>
+	<string name="2min">2分</string>
+	<string name="Left hand drive">左側</string>
+	<string name="Right hand drive">右ドライブ</string>
+	<string name="Full Screen">フルスクリーンモード</string>
+	<string name="Half screen mode">ハーフスクリーンモード</string>
+	<string name="confirm_switch_link_screen_mode">この機能をオン/オフにすると自動的に接続が切断されて再接続が有効になりますので、切り替えを確認してください</string>
+	<string name="settime">時刻設定</string>
+	<string name="Do you want to format the storage card">メモリカードをフ
+-ォーマットしますか？</string>
+	<string name="formating_memory_card">フォーマット中...</string>
+	<string name="Do you want to clear connect record">携帯電話との接続記録
+（Bluetooth、WIFI、スクリーンショット）
+をクリアしますか？</string>
+	<string name="wait a moment">後で...</string>
+	<string name="Unknown">不明</string>
+	<string name="no connect">接続されていません</string>
+	<string name="connecting">接続中</string>
+	<string name="To disconnect from this device?">接続中にこのデバイスを切断し
+てもよろしいですか？</string>
+	<string name="Disconnect">切断</string>
+	<string name="Bluemanage">Bluetooth管理</string>
+	<string name="BlueName">Bluetooth名：</string>
+	<string name="BlueSwitch">Bluetoothスイッチ：</string>
+	<string name="BlueDev">リモートデバイス：</string>
+	<string name="disconnect">切断：</string>
+	<string name="autoconnect">自動接続：</string>
+	<string name="display">スケールの表示</string>
+	<string name="Sunday">日曜日</string>
+	<string name="Monday">月曜日</string>
+	<string name="Tuesday">火曜日</string>
+	<string name="Wednesday">水曜日</string>
+	<string name="Thursday">木曜日</string>
+	<string name="Friday">金曜日</string>
+	<string name="Saturday">土曜日</string>
+	<string name="Calibration_instruction">キャリブレーションの説明</string>
+	<string name="Calib_tips1">車庫の外に車を止める</string>
+	<string name="Calib_tips2">指のタッチスクリーンでバックラインの位置をざっと調整する
+</string>
+	<string name="Calib_tips3">保存</string>
+	<string name="Save_calibration">保存</string>
+	<string name="Uncalibrate">キャンセル</string>
+	<string name="error">エラー</string>
+	<string name="tfcard_not_found">メモリカードが挿入されていません</string>
+	<string name="tfcard_low_capacity">メモリカードの容量が不足している</string>
+	<string name="tfcard_format_error">メモリカードのフォーマットに失敗しました</string>
+	<string name="tfcard_mount_error">メモリカードのマウントに失敗しました</string>
+	<string name="tfcard_format_success">フォーマット完了</string>
+	<string name="waiting_for_bt_on">デバイスBluetooth機能が起動中</string>
+	<string name="waiting_for_bt_off">デバイスBluetooth機能が停止中</string>
+	<string name="lock_this_video">現在のビデオをロックする</string>
+	<string name="unlock_this_video">現在のビデオのロック解除</string>
+	<string name="ask_delete_file">本当に選択したファイルを削除しますか？</string>
+	<string name="rear_camera_detach">背面カメラが取り外されました</string>
+	<string name="invalid_tfcard">SDカードファイルシステムが要件を満た
+していない書式設定しますか？</string>
+	<string name="auth_exception">権限例外</string>
+	<string name="auth_state">承認ステータス</string>
+	<string name="auth_tips">1.Bluetooth認証異常により、Bluetoothが接続できないか、Bluetoothが自動的に切断される現象が発生します。
+
+2.Carplay許可異常により、Carplayが接続できないか、Carplayが自動的に切断される現象が発生します。</string>
+	<string name="bluetooth_authorized">Bluetoothが承認されました</string>
+	<string name="bluetooth_unauthorized">Bluetooth不正アクセス</string>
+	<string name="carplay_authorized">Carplayライセンス済み</string>
+	<string name="carplay_unauthorized">Carplayが許可されていません</string>
+	<string name="">承認に成功しました</string>
+	<string name="wf_tips">WiFi ビデオ接続のヘルプ:</string>
+	<string name="wf_step1">QRコードをスキャンして対応するアプリをダウンロードします</string>
+	<string name="wf_step2">アプリのプロンプトに従ってローカル WiFi に接続します</string>
+	<string name="wf_step3">WiFi名:</string>
+	<string name="wf_step4">パスワード：</string>
+	<string name="wf_step5">ヒント: この機能が正しく動作するには、
+WIFI ビデオ モードでアプリに接続する必要があります。</string>
+	<string name="Theme A">テーマA</string>
+	<string name="Theme B">テーマB</string>
+	<string name="eyeprotect">目の保護</string>
+	<string name="Brightness at night">夜間の明るさ</string>
+	<string name="starttime">開始時間</string>
+	<string name="endtime">終了時間</string>
+	<string name="hour">時</string>
+	<string name="min">分</string>
+	<string name="Connected Wifi Video">接続されたWifiビデオ</string>
+	<string name="sys_setup">設定</string>
+    <string name="sys_developer_options">デベロッパーオプション</string>
+    <string name="sys_debug_switch">デバッグスイッチ</string>
+    <string name="sys_net_setup">ネットワーク設定</string>
+    <string name="sys_wifi_setup">Wi-fi設定</string>
+    <string name="sys_lte4g_setup">4G設定</string>
+    <string name="sys_hotspot_setup">ホットスポット設定</string>
+    <string name="sys_ethernet_setup">Ethernet設定</string>
+    <string name="sys_hotspot_switch">ホットスポット切替</string>
+    <string name="sys_hotspot_name">ホットスポット名</string>
+    <string name="sys_hotspot_password">ホットスポットパスワード</string>
+    <string name="sys_show_password">パスワード表示</string>
+    <string name="sys_save">保存</string>
+    <string name="sys_lang_setup">言語設定</string>
+    <string name="sys_cancel">取消</string>
+    <string name="sys_confirm">OK</string>
+    <string name="sys_lang_switch_tip">システム言語を%に切り替えますか？</string>
+    <string name="sys_wifi_name">名前</string>
+    <string name="sys_wifi_encryption_method">暗号化方法</string>
+    <string name="sys_wifi_encryption_encrypted">暗号化</string>
+    <string name="sys_wifi_encryption_open">オープン</string>
+    <string name="sys_wifi_password">パスワード</string>
+    <string name="sys_wifi_status">状態</string>
+    <string name="sys_wifi_connect">接続</string>
+    <string name="sys_wifi_disconnect">切断</string>
+    <string name="sys_wifi_status_authenticating">認証</string>
+    <string name="sys_wifi_status_handshake">IP取得</string>
+    <string name="sys_wifi_status_connected">接続済</string>
+    <string name="sys_wifi_ip_addr">IPアドレス</string>
+    <string name="sys_wifi_mac_addr">MACアドレス</string>
+    <string name="sys_wifi_password_error">パスワードエラー</string>
+    <string name="sys_lte4g_manufacturer">メーカー</string>
+    <string name="sys_lte4g_version">バージョン</string>
+    <string name="sys_ethernet_connect_type">接続タイプ</string>
+    <string name="sys_ethernet_dynamic_ip">自動IP取得</string>
+    <string name="sys_ethernet_static_ip">静的IP</string>
+    <string name="sys_ethernet_ip_addr">IPアドレス</string>
+    <string name="sys_ethernet_mask">サブネットマスク</string>
+    <string name="sys_ethernet_gateway">デフォルトゲートウェイ</string>
+    <string name="sys_ethernet_first_dns">優先DNSサーバー</string>
+    <string name="sys_ethernet_second_dns">バックアップDNSサーバー</string>
+    <string name="sys_ethernet_save_ok">正常に保存</string>
+    <string name="sys_ethernet_save_error">保存できません</string>
+    <string name="sys_touch_calibration">タッチ較正</string>
+    <string name="sys_upgrade">upgrade</string>
+    <string name="sys_upgrade_need_reboot">システムはまもなくアップグレードのために再起動します</string>
+    <string name="sys_upgrade_success">正常にアップグレードしました。システムはまもなく再起動します</string>
+    <string name="sys_upgrade_fail">アップグレードに失敗しました</string>
+    <string name="sys_upgrade_pack_format_error">アップグレードパッケージ形式が誤っています。もう一度アップグレードパッケージを生成してください！</string>
+    <string name="sys_upgrade_type_no_match_error">アップグレードパッケージモデルが一致しません！</string>
+    <string name="sys_upgrade_forbid_error">アップグレードしないでください！</string>
+    <string name="sys_upgrade_image_size_error">ミラー画像がパーティションサイズより大きく、アップグレードできません。</string>
+    <string name="sys_upgrade_logo_size_error">ブートロゴ画像の解像度が画面解像度より大きく、アップグレードできません。</string>
+    <string name="sys_upgrade_not_support_logo_error">ブートロゴのアップグレードに対応していません。アップグレードできません。</string>
+    <string name="sys_exit">退出</string>
+    <string name="sys_upgrade_warning">アップグレード中です。電源を切断しないでください。</string>
+    <string name="sys_upgrade_ts_tip_warning">注意：アップグレード完了後、再度アップグレードが行われないよう、Tカード内のts.cfgファイルを削除してください！</string>
+    <string name="sys_ts_type">タイプ</string>
+    <string name="sys_ts_version">バージョン</string>
+    <string name="sys_ts_pix">解像度</string>
+    <string name="sys_ts_date">日付</string>
+
+</resources>

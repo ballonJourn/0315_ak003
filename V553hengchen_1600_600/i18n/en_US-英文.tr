@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Driving records">Car Record</string>
+	<string name="playback">Playback</string>
+	<string name="Audio output">Audio Out</string>
+	<string name="Bluetooth music">BT Music</string>
+	<string name="WiFi video">Wifi Video</string>
+	<string name="Tips">Prompt</string>
+	<string name="connected">Connected</string>
+	<string name="device">Device</string>
+	
+	<string name="confirm">Confirm</string>
+	<string name="cancel">Cancel</string>
+	<string name="Setting">Setting</string>
+	<string name="connected_carplay_tip">Connected to
+CarPlay</string>
+	<string name="connected_android_auto_tip">Connected to 
+Android Auto</string>
+	<string name="Connected CarPlay device">Connected CarPlay device</string>
+	<string name="Connected Android Auto device">Connected to Android Auto device</string>
+	<string name="Connected AirPlay device">Connected to AirPlay device</string>
+	<string name="Connected Miracast device">Connected to Miracast device</string>
+	<string name="Connected Aicast device">Connected to Aicast device</string>
+	<string name="change_carplay_tip">Switch to &quot;Carplay&quot; mode?</string>
+	<string name="change_auto_tip">Switch to &quot;Android Auto&quot; mode?</string>
+	<string name="change_airplay_tip">Switch to &quot;Airplay&quot; mode?</string>
+	<string name="change_miracast_tip">Switch to &quot;Miracast&quot; mode?</string>
+	<string name="change_btmusic_tip">Switch to &quot;Bluetooth Music&quot; mode?</string>
+	<string name="change_wifivideo_tip">Switch to &quot;WIFI Video&quot; mode?</string>
+	<string name="change_aicast_tip">Switch to &quot;Aicast&quot; mode?</string>
+	<string name="Please use your phone to connect to the original car Bluetooth">Please use your phone to connect to the original car Bluetooth</string>
+	<string name="Audio output from the speaker">Audio output from the speaker</string>
+	<string name="auxtips">Audio output from AUX</string>
+	
+	<string name="resolution ratio">Resolution</string>
+<string name="set_resolution ratio">Resolution</string>
+	<string name="Loop recording">Loop 
+recording</string>
+	<string name="set_Loop recording">Loop recording</string>
+	<string name="sound recording">Tape</string>
+	<string name="set_sound recording">Sound recording</string>
+	<string name="assist switch">Auxiliary
+button</string>
+	<string name="set_assist switch">Assist switch</string>
+	<string name="mirror image">Rear view
+mirror</string>
+	<string name="set_mirror image">Mirror image</string>
+	<string name="screen saver">Screen 
+saver</string>
+	<string name="set_screen saver">Screen saver</string>
+	<string name="Driving Position">Driving
+position</string>
+	<string name="set_Driving Position">Driving position</string>
+	<string name="Split screen mode">Carplay/Auto
+screen mode</string>
+	<string name="set_Split screen mode">CarPlay/Auto split screen mode</string>
+	<string name="Reverse line calibration">Reverse
+calibration</string>
+	<string name="set_Reverse line calibration">Reverse line calibration</string>
+	<string name="Language settings">Language</string>
+	<string name="set_Language settings">Language settings</string>
+	<string name="time setting">Time
+setting</string>
+	<string name="set_time setting">Time setting</string>
+	<string name="clear connect record">Clear 
+connection</string>
+	<string name="set_clear connect record">Clear connect record</string>
+	<string name="setclear connect record">Clear connection</string>
+	<string name="touch sound">Touch-tone</string>
+	<string name="set_touch sound">Touch sound</string>
+	<string name="Format memory card">Format</string>
+	<string name="set_Format memory card">Format</string>
+	<string name="Factory Default">Restore
+settings</string>
+	<string name="set_Factory Default">Factory default</string>
+	<string name="Software version">Version</string>
+	<string name="set_Software version">Software version</string>
+	<string name="mcu Upgrade">MCU
+Upgrade</string>
+	<string name="set_mcu Upgrade">MCU Upgrade</string>
+	<string name="mcu_upgrade_yes">Upgrade file detected, 
+do you want to upgrade?</string>
+	<string name="mcu_upgrade_no">No upgrade file detected</string>
+	<string name="mcu_upgrade_done">Upgrade completed!</string>
+	<string name="resolution ratio">Resolution</string>
+	<string name="Loop recording">Loop 
+recording</string>
+	<string name="sound recording">Tape</string>
+	<string name="assist switch">Auxiliary
+button</string>
+	<string name="mirror image">Rear view
+mirror</string>
+	<string name="screen saver">Screen 
+saver</string>
+	<string name="Driving Position">Driving
+position</string>
+	<string name="Split screen mode">Carplay/Auto
+screen mode</string>
+	<string name="Reverse line calibration">Reverse
+calibration</string>
+	<string name="Language settings">Language</string>
+	<string name="time setting">Time
+setting</string>
+	<string name="clear connect record">Clear 
+connection</string>
+	<string name="setclear connect record">Clear connection</string>
+	<string name="touch sound">Touch-tone</string>
+	<string name="Format memory card">Format</string>
+	<string name="Factory Default">Restore
+settings</string>
+	<string name="Software version">Version</string>
+	<string name="mcu Upgrade">MCU
+Upgrade</string>
+	<string name="Debug">Debug</string>
+	<string name="Conn_step">Connection steps:</string>
+	<string name="Conn_tips">Tip:</string>
+	<string name="cp_step1">Select the Carplay option</string>
+	<string name="cp_step2">Use an iPhone to connect to Bluetooth,
+the Bluetooth name is:</string>
+	<string name="cp_step3">When the pop-up window on the phone s-hows &quot;Use iPhone for Carplay car?&quot;, select the &quot;Use Carplay car option&quot;</string>
+	<string name="cp_tips1">The waiting time for the first connection is relatively long</string>
+	<string name="cp_tips2">Only supports Apple phones</string>
+	<string name="cp_tips3">After successful connection, Bluetooth will automatically disconnect</string>
+	<string name="aa_step1">Select the Android Auto option</string>
+	<string name="aa_step2">Use your phone to connect to Bluetooth, t-he Bluetooth name is:</string>
+	<string name="aa_mc_tips1">Only supports Android phones</string>
+	<string name="aa_tips2">Please confirm that the Auto 
+application and dependent applications are the latest versions</string>
+	<string name="ap_step1">Please use your iPhone to connect to WiFi.
+ The WiFi name is:</string>
+	<string name="ap_step2">The WiFi password is:</string>
+	<string name="ap_step3">In the screen mirror of the iPhone control
+center, select:</string>
+	<string name="ap_tips1">Only supports iPhone phones</string>
+	<string name="mc_step1">Open your Android phone and enter the s-ystem settings interface</string>
+	<string name="mc_step2">Find more connections and enable phone  screen mirroring</string>
+	<string name="mc_step3">Wait for scanning, connect device name:
+</string>
+	<string name="ac_step1">Scan the QR code to download APK and install AICAST software</string>
+	<string name="ac_step2">Click Add Device</string>
+	<string name="ac_step3">Wait for scanning, connect device name:</string>
+	<string name="Turn on device:">Turn on device:</string>
+	<string name="instructions">Instructions for use</string>
+	<string name="fmtip">Set the car radio to the above frequency to play the sound on the device</string>
+	<string name="horn">Speaker</string>
+	<string name="sure">Confirm</string>
+	<string name="cancel">Cancel</string>
+	<string name="Restore factory settings">Restore settings</string>
+	<string name="set_Restore factory settings">Restore settings</string>
+	<string name="Are you sure you want to restore the factory settings">Are you sure you want to
+restore the factory settings?</string>
+	<string name="1080P">1080P</string>
+	<string name="2K">2K</string>
+	<string name="2.5K">2.5K</string>
+	<string name="4K">4K</string>
+	<string name="720P_720P">Front 720P+back 720P</string>
+	<string name="1080P_1080P">Front 1080P+back 1080P</string>
+	<string name="2_5K_720P">Front 2.5K+rear 720P</string>
+	<string name="1min">1 minute</string>
+	<string name="3min">3 minutes</string>
+	<string name="5min">5 minutes</string>
+	<string name="close">Close</string>
+	<string name="open">Open</string>
+	<string name="2min">2 minutes</string>
+	<string name="Left hand drive">Left hand drive</string>
+	<string name="Right hand drive">Right hand drive</string>
+	<string name="Full Screen">Full screen</string>
+	<string name="Half screen mode">Half screen</string>
+	<string name="confirm_switch_link_screen_mode">Enabling/disabling this function will automatically disconnect and reconnect before it can take effect. Please confirm whether to switch</string>
+	<string name="settime">Time Setting</string>
+	<string name="Do you want to format the storage card">Do you want to format 
+the storage card?</string>
+	<string name="formating_memory_card">Formating...</string>
+	<string name="Do you want to clear connect record">Do you want to clear the connection 
+records with your phone (Bluetooth, 
+WIFI, screen mirroring)?</string>
+	<string name="wait a moment">Please wait</string>
+	<string name="Unknown">Unknown</string>
+	<string name="no connect">Not connected</string>
+	<string name="connecting">Connecting</string>
+	<string name="To disconnect from this device?">Are you sure you want to 
+disconnect this device?</string>
+	<string name="Disconnect">Disconnect</string>
+	<string name="Bluemanage">Bluetooth setup</string>
+	<string name="BlueName">Bluetooth name:</string>
+	<string name="BlueSwitch">Bluetooth switch:</string>
+	<string name="BlueDev">Remote devices:</string>
+	<string name="disconnect">Disconnect:</string>
+	<string name="autoconnect">Automatic connection:</string>
+	<string name="display">Display scale</string>
+	<string name="Sunday">Sun.</string>
+	<string name="Monday">Mon.</string>
+	<string name="Tuesday">Tues.</string>
+	<string name="Wednesday">Wed.</string>
+	<string name="Thursday">Thur.</string>
+	<string name="Friday">Fri.</string>
+	<string name="Saturday">Sat.</string>
+	<string name="Calibration_instruction">Calibration instructions</string>
+	<string name="Calib_tips1">Park the car outside the garage</string>
+	<string name="Calib_tips2">Finger touch screen to roughly adjust the position of the reverse line
+</string>
+	<string name="Calib_tips3">Save</string>
+	<string name="Save_calibration">Save</string>
+	<string name="Uncalibrate">Cancel</string>
+	<string name="error">error</string>
+	<string name="tfcard_not_found">No storage card inserted</string>
+	<string name="tfcard_low_capacity">Insufficient storage card capacity</string>
+	<string name="tfcard_format_error">Format storage card failed</string>
+	<string name="tfcard_mount_error">Failed to mount storage card</string>
+	<string name="tfcard_format_success">Format complete</string>
+	<string name="waiting_for_bt_on">The Bluetooth function of the device
+is currently being activated</string>
+	<string name="waiting_for_bt_off">The Bluetooth function of the
+device is being turned off</string>
+	<string name="lock_this_video">Lock the current video</string>
+	<string name="unlock_this_video">Unlock current video</string>
+	<string name="ask_delete_file">Are you sure you want to
+delete the selected file?</string>
+	<string name="rear_camera_detach">Rear camera unplugged</string>
+	<string name="invalid_tfcard">The SD card file system does not 
+meet the requirements Format it?</string>
+	<string name="auth_exception">Authorization exception</string>
+	<string name="auth_state">Authorization status</string>
+	<string name="auth_tips">1. Abnormal Bluetooth authorization may result in Bluetooth not being able to connect or Bluetooth automatically disconnecting.
+
+2. Abnormal authorization in Carplay may result in Carplay being unable to connect or automatically disconnecting.</string>
+	<string name="bluetooth_authorized">Bluetooth authorized</string>
+	<string name="bluetooth_unauthorized">Bluetooth Unauthorized</string>
+	<string name="carplay_authorized">Carplay authorized</string>
+	<string name="carplay_unauthorized">Carplay Unauthorized</string>
+	<string name="">Authorization successful</string>
+	
+	<string name="eyeprotect">Eye protection</string>
+	<string name="Brightness at night">Brightness at night</string>
+	<string name="starttime">Starttime</string>
+	<string name="endtime">Endtime</string>
+	<string name="hour">Hour</string>
+	<string name="min">Min</string>
+	<string name="wf_tips">WiFi video connection help:</string>
+	<string name="wf_step1">Scan the QR code to download the corresponding app</string>
+	<string name="wf_step2">Follow the app prompts to connect to the local WiFi</string>
+	<string name="wf_step3">WiFi name:</string>
+	<string name="wf_step4">password:</string>
+	<string name="wf_step5">Tip: This function needs to be connected to the App
+in WIFI video mode in order to work properly.</string>
+	<string name="Theme A">Theme A</string>
+	<string name="Theme B">Theme B</string>
+	
+	<string name="Connected Wifi Video">Connected to Wifi Video</string>
+</resources>

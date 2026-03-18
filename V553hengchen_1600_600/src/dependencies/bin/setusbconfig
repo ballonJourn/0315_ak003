@@ -1,0 +1,76 @@
+#!/bin/sh
+
+name=`basename $0`
+
+usage() {
+  echo "$name Usage:"
+  echo ""
+  echo "$name [function]"
+  echo "function: adb,    support adb function"
+  echo "example:"
+  echo "$name adb"
+  echo ""
+}
+
+udc_controller=`ls /sys/class/udc`
+
+set_usb_function() {
+# 1:function
+# 2:idVendor
+# 3:idProduct
+#
+
+  [ -d /sys/kernel/config/usb_gadget ] || {
+	mount -t configfs none /sys/kernel/config
+	mkdir /sys/kernel/config/usb_gadget/g1
+	mkdir /sys/kernel/config/usb_gadget/g1/strings/0x409
+	echo "zkswe" > /sys/kernel/config/usb_gadget/g1/strings/0x409/manufacturer
+	echo "flythings" > /sys/kernel/config/usb_gadget/g1/strings/0x409/product
+	echo "20080411" > /sys/kernel/config/usb_gadget/g1/strings/0x409/serialnumber
+  }
+  [ -d /sys/kernel/config/usb_gadget/g1/configs/c.1 ] || {
+	mkdir /sys/kernel/config/usb_gadget/g1/configs/c.1
+	echo 0xc0 > /sys/kernel/config/usb_gadget/g1/configs/c.1/bmAttributes
+	echo 500 > /sys/kernel/config/usb_gadget/g1/configs/c.1/MaxPower
+	mkdir /sys/kernel/config/usb_gadget/g1/configs/c.1/strings/0x409
+  }
+
+  [ -d /sys/kernel/config/usb_gadget/g1/functions/ffs.adb ] || {
+	mkdir /sys/kernel/config/usb_gadget/g1/functions/ffs.adb
+  }
+
+  rm -f /sys/kernel/config/usb_gadget/g1/configs/c.1/ffs.adb
+  rm -f /sys/kernel/config/usb_gadget/g1/configs/c.1/f1
+
+  echo $2 > /sys/kernel/config/usb_gadget/g1/idVendor
+  echo $3 > /sys/kernel/config/usb_gadget/g1/idProduct
+
+  if [ $1 == "none" ]; then
+	return
+  elif [ $1 == "adb" ]; then
+	ln -s /sys/kernel/config/usb_gadget/g1/functions/ffs.adb/ /sys/kernel/config/usb_gadget/g1/configs/c.1/ffs.adb
+  fi
+
+  [ -d /dev/usb-ffs/adb ] || {
+	mkdir /dev/usb-ffs
+	mkdir /dev/usb-ffs/adb
+	mount -o uid=2000,gid=2000 -t functionfs adb /dev/usb-ffs/adb/
+  }
+  echo $udc_controller > /sys/kernel/config/usb_gadget/g1/UDC
+}
+
+if [ $# == 1 ]; then
+  if [ $1 == "none" ]; then
+    set_usb_function none 0x1f3a 0x1001
+    return
+  fi
+  if [ $1 == "adb" ]; then
+    set_usb_function adb 0x18d1 0xD002
+    return
+  fi
+  echo "Invalid arg:$1"
+  usage
+else
+  echo "Lack of arg!"
+  usage
+fi

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Driving records">запись
+вождения</string>
+	<string name="playback">Видео</string>
+	<string name="Audio output">аудио выход</string>
+	<string name="Bluetooth music">BT музыка</string>
+	<string name="WiFi video">wifi-видео</string>
+	<string name="Tips">подсказка</string>
+	<string name="connected">подключено</string>
+	<string name="device">устройство</string>
+	<string name="connected_carplay_tip">подключено
+CarPlay</string>
+	<string name="connected_android_auto_tip">подключено
+Android Auto</string>
+	<string name="Connected CarPlay device">устройство
+CarPlay
+подключено</string>
+	<string name="Connected Android Auto device">устройство
+Android Auto
+подключено</string>
+	<string name="Connected AirPlay device">устройство
+AirPlay
+подключено</string>
+	<string name="Connected Miracast device">устройство
+Miracast
+подключено</string>
+	<string name="change_carplay_tip">переключить в режим CarPlay？</string>
+	<string name="change_auto_tip">переключить в режим 
+Android Auto？</string>
+	<string name="change_airplay_tip">переключить в режим AirPlay？</string>
+	<string name="change_miracast_tip">переключить в режим Miracast？</string>
+	<string name="change_btmusic_tip">переключить в режим
+Bluetooth музыки？</string>
+	<string name="change_wifivideo_tip">переключить в режим WiFi？</string>
+	<string name="Please use your phone to connect to the original car Bluetooth">подключите телефон к штатному Bluetooth</string>
+	<string name="Audio output from the speaker">аудио выводится через динамик</string>
+	<string name="auxtips">аудио выводится через AUX</string>
+	<string name="resolution ratio">Резолюция</string>
+	<string name="Loop recording">Цикличная
+	запись</string>
+	<string name="sound recording">запись
+звука</string>
+	<string name="assist switch">вспомогат-
+ельная</string>
+	<string name="mirror image">Откидное
+зеркало</string>
+	<string name="screen saver">защита
+экрана</string>
+	<string name="Driving Position">Положение
+водителя</string>
+	<string name="Split screen mode">разделения
+CarPlay/Auto</string>
+	<string name="Reverse line calibration">адаптация
+линии</string>
+	<string name="Language settings">язык</string>
+	<string name="time setting">настройка
+времени</string>
+	<string name="clear connect record">ясная
+запись</string>
+	<string name="touch sound">звук
+кнопок</string>
+	<string name="Format memory card">Формат
+карты</string>
+	<string name="Factory Default">сброс
+настроек</string>
+	<string name="Software version">версия</string>
+	<string name="Conn_step">шаги подключения：</string>
+	<string name="Conn_tips">Подсказка：</string>
+	<string name="cp_step1">выберите опцию CarPlay</string>
+	<string name="cp_step2">подключите iPhone через Bluetooth с 
+именем</string>
+	<string name="cp_step3">в всплывающем окне выберите Исполь-
+зовать CarPlay</string>
+	<string name="cp_tips1">первое подключение может
+занять больше времени</string>
+	<string name="cp_tips2">только для iPhone</string>
+	<string name="cp_tips3">после успешного подключения Blue-
+tooth отключится автоматически</string>
+	<string name="aa_step1">выберите опцию Android Auto</string>
+	<string name="aa_step2">подключите телефон через Bluetooth с 
+именем</string>
+	<string name="aa_mc_tips1">только для Android</string>
+	<string name="aa_tips2">проверьте, что приложение
+Auto обновлено до последней версии</string>
+	<string name="ap_step1">подключите iPhone к WiFi с именем</string>
+	<string name="ap_step2">пароль WiFi</string>
+	<string name="ap_step3">в центре управления iPhone выберите 
+Экранное зеркалирование</string>
+	<string name="ap_tips1">только для iPhone</string>
+	<string name="mc_step1">включите Android-устройство, перейдите в настройки системы</string>
+	<string name="mc_step2">найдите параметры подключения и вк-
+лючите зеркалирование экрана</string>
+	<string name="mc_step3">подождите сканирования, выберите уст-
+ройство с именем：</string>
+	<string name="Turn on device:">включить устройство：</string>
+	<string name="instructions">инструкция по использованию</string>
+	<string name="fmtip">настройте радио автомобиля на указанную частоту
+для воспроизведения звука</string>
+	<string name="horn">динамик</string>
+	<string name="sure">подтвердить</string>
+	<string name="cancel">отмена</string>
+	<string name="Restore factory settings">восстановить настройки</string>
+	<string name="Are you sure you want to restore the factory settings">восстановить заводские
+настройки？</string>
+	<string name="1080P">1080P</string>
+	<string name="2.5K">2.5K</string>
+	<string name="4K">4K</string>
+	<string name="720P_720P">передняя 720P + задняя 720P</string>
+	<string name="1080P_1080P">передняя 1080P + задняя 1080P</string>
+	<string name="2_5K_720P">передняя 2.5K + задняя 720P</string>
+	<string name="1min">1 минута</string>
+	<string name="3min">3 минуты</string>
+	<string name="5min">5 минут</string>
+	<string name="close">выключить</string>
+	<string name="open">включить</string>
+	<string name="2min">2 минуты</string>
+	<string name="Left hand drive">левый руль</string>
+	<string name="Right hand drive">правый руль</string>
+	<string name="Full Screen">полноэкранный режим</string>
+	<string name="Half screen mode">режим половинного экрана</string>
+	<string name="confirm_switch_link_screen_mode">включение/выключение функции
+требует повторного подключения</string>
+	<string name="settime">настройка времени</string>
+	<string name="Do you want to format the storage card">нужно ли
+отформатировать карту памяти？</string>
+	<string name="formating_memory_card">форматирование...</string>
+	<string name="Do you want to clear connect record">очистить историю подключений
+(Bluetooth, WiFi, зеркалирование)？</string>
+	<string name="wait a moment">пожалуйста, подождите...</string>
+	<string name="Unknown">неизвестно</string>
+	<string name="no connect">не подключено</string>
+	<string name="connecting">подключение...</string>
+	<string name="To disconnect from this device?">отключить это устройство？</string>
+	<string name="Disconnect">отключить</string>
+	<string name="Bluemanage">управление Bluetooth</string>
+	<string name="BlueName">имя Bluetooth：</string>
+	<string name="BlueSwitch">включение/выключение Bluetooth：</string>
+	<string name="BlueDev">удаленные устройства：</string>
+	<string name="disconnect">разорвать соединение：</string>
+	<string name="autoconnect">автоподключение：</string>
+	<string name="display">масштаб отображения</string>
+	<string name="Sunday">воскресенье</string>
+	<string name="Monday">понедельник</string>
+	<string name="Tuesday">вторник</string>
+	<string name="Wednesday">среда</string>
+	<string name="Thursday">четверг</string>
+	<string name="Friday">пятница</string>
+	<string name="Saturday">суббота</string>
+	<string name="Calibration_instruction">инструкция по калибровке</string>
+	<string name="Calib_tips1">припаркуйте автомобиль снаружи гаража</string>
+	<string name="Calib_tips2">используйте экран для настройки линии</string>	<string name="Calib_tips3">сохранить</string>
+	<string name="Save_calibration">Сохранить</string>
+	<string name="Uncalibrate">Отмена</string>
+	<string name="error">Ошибка</string>
+	<string name="tfcard_not_found">Карта памяти не вставлена</string>
+	<string name="tfcard_low_capacity">Недостаточно памяти на карте</string>
+	<string name="tfcard_format_error">Не удалось отформатировать карту памяти</string>
+	<string name="tfcard_mount_error">Не удалось смонтировать карту памяти</string>
+	<string name="tfcard_format_success">Форматирование завершено</string>
+	<string name="waiting_for_bt_on">Bluetooth включается</string>
+	<string name="waiting_for_bt_off">Bluetooth выключается</string>
+	<string name="lock_this_video">заблокировать это видео</string>
+	<string name="unlock_this_video">разблокировать это видео</string>
+	<string name="ask_delete_file">Вы уверены, что хотите
+удалить выбранные файлы?</string>
+	<string name="rear_camera_detach">Задняя камера отсоединена</string>
+	<string name="invalid_tfcard">файловая система SD-карты не подходит,
+выполнить форматирование?</string>
+	<string name="auth_exception">ошибка авторизации</string>
+	<string name="auth_state">статус авторизации</string>
+	<string name="auth_tips">1.ошибка авторизации Bluetooth может привести к проблемам с подключением или автоматическому отключению
+2.ошибка авторизации CarPlay может привести к проблемам с подключением или автоматическому отключению</string>
+	<string name="bluetooth_authorized">Bluetooth авторизован</string>
+	<string name="bluetooth_unauthorized">Bluetooth не авторизован</string>
+	<string name="carplay_authorized">CarPlay авторизован</string>
+	<string name="carplay_unauthorized">CarPlay не авторизован</string>
+	<string name="nan">успешная авторизация</string>
+	<string name="Camera">камера</string>
+	<string name="nan">нет сигнала</string>
+	<string name="nan">воспроизведение музыки</string>
+	<string name="wf_tips">Wi-Fi Видео Помощь</string>
+	<string name="wf_step1">Скан QR-кода для приложения</string>
+	<string name="wf_step2">Следуйте инструкциям приложения</string>
+	<string name="wf_step3">Имя:</string>
+	<string name="wf_step4">Пароль:</string>
+	
+	<string name="wf_step5">Примечание: Подключитесь к APP в режиме Wi-Fi видео.</string>
+	<string name="Connected Wifi Video">Подключено к Wi-Fi видео.</string>
+	<string name="sys_upgrade">Upgrade</string>
+	<string name="sys_upgrade_warning">Во время модернизации не выключайте питание</string>
+	<string name="sys_upgrade_success">Обновление прошло успешно, и система перезагрузилась</string>
+	<string name="sys_upgrade_fail">Обновление не удалось</string>
+
+	<string name="2K">2K</string>
+	<string name="Brightness at night">яркость ночью</string>
+	<string name="Connected Aicast device">устройство Aicast подключено</string>
+	<string name="Debug">отладка</string>
+	<string name="Setting">настройки</string>
+	<string name="Theme A">тема A</string>
+	<string name="Theme B">тема B</string>
+	<string name="ac_step1">отсканируйте QR-код для установки AICAST</string>
+	<string name="ac_step2">нажмите Добавить устройство</string>
+	<string name="ac_step3">подождите сканирования, подключите：</string>
+	<string name="change_aicast_tip">переключить в режим Aicast？</string>
+	<string name="confirm">подтвердить</string>
+	<string name="endtime">время окончания</string>
+	<string name="eyeprotect">защита глаз</string>
+	<string name="hour">час</string>
+	<string name="mcu Upgrade">Обновить
+MCU</string>
+	<string name="mcu_upgrade_done">обновление завершено!</string>
+	<string name="mcu_upgrade_no">файл обновления не обнаружен</string>
+	<string name="mcu_upgrade_yes">обнаружен файл обновления,
+выполнить обновление？</string>
+	<string name="min">мин</string>
+	<string name="set_Driving Position">расположение водителя</string>
+	<string name="set_Factory Default">сброс настроек</string>
+	<string name="set_Format memory card">форматирование</string>
+	<string name="set_Language settings">язык</string>
+	<string name="set_Loop recording">циклическая запись</string>
+	<string name="set_Restore factory settings">восстановить настройки</string>
+	<string name="set_Reverse line calibration">калибровка линии парковки</string>
+	<string name="set_Software version">версия</string>
+	<string name="set_Split screen mode">режим разделения CarPlay/Auto</string>
+	<string name="set_assist switch">вспомогательная кнопка</string>
+	<string name="set_clear connect record">очистка истории подключений</string>
+	<string name="set_mcu Upgrade">обновление MCU</string>
+	<string name="set_mirror image">зеркалирование камеры</string>
+	<string name="set_resolution ratio">разрешение</string>
+	<string name="set_screen saver">защита экрана</string>
+	<string name="set_sound recording">запись звука</string>
+	<string name="set_time setting">настройка времени</string>
+	<string name="set_touch sound">звук кнопок</string>
+	<string name="setclear connect record">очистка истории подключений</string>
+	<string name="starttime">время начала</string>
+</resources>

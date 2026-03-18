@@ -1,0 +1,232 @@
+// 该文件由Versioning自动生成
+// 它不适用于手动编辑
+{
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "easyui",
+      "version": "0.0.0-20240507",
+      "revision": "0.0.0-20240507"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "log",
+      "version": "0.0.0",
+      "revision": "0.0.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "zkhardware",
+      "version": "0.0.0",
+      "revision": "0.0.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "zknet",
+      "version": "0.0.0",
+      "revision": "0.0.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "aw-middleware",
+      "version": "0.0.0",
+      "revision": "0.0.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "aw-system",
+      "version": "0.0.0",
+      "revision": "0.0.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "parsesps",
+      "version": "0.0.1",
+      "revision": "0.0.1"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "utf8conv",
+      "version": "1.1.1",
+      "revision": "1.1.1"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "ini",
+      "version": "0.0.1",
+      "revision": "0.0.1"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "base-utility",
+      "version": "10.4.0",
+      "revision": "10.4.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "aw-isp",
+      "version": "0.0.0",
+      "revision": "0.0.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "freetype",
+      "version": "2.2.5",
+      "revision": "2.2.5"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "civetweb",
+      "version": "1.17.0",
+      "revision": "1.17.0"
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "aw-dvr",
+      "version": "3.13.12",
+      "revision": "3.13.12",
+      "accessKey": "89afac5dea492f83f51eb1782da56986509d276e",
+      "dependencies": [
+        {
+          "repository": {
+            "id": "public",
+            "url": "https://package.flythings.cn"
+          },
+          "platform": "V85X",
+          "id": "rtsp",
+          "version": "0.0.2",
+          "revision": "0.0.2",
+          "systemLibrary": false
+        },
+        {
+          "repository": {
+            "id": "public",
+            "url": "https://package.flythings.cn"
+          },
+          "platform": "V85X",
+          "id": "base-utility",
+          "version": "^10.3.0",
+          "revision": "10.4.0"
+        },
+        {
+          "repository": {
+            "id": "public",
+            "url": "https://package.flythings.cn"
+          },
+          "platform": "V85X",
+          "id": "aw-mpp",
+          "version": "^2.0.1",
+          "revision": "2.0.2"
+        },
+        {
+          "repository": {
+            "id": "public",
+            "url": "https://package.flythings.cn"
+          },
+          "platform": "V85X",
+          "id": "png",
+          "version": "1.2.56",
+          "revision": "1.2.56"
+        },
+        {
+          "repository": {
+            "id": "public",
+            "url": "https://package.flythings.cn"
+          },
+          "platform": "V85X",
+          "id": "z",
+          "version": "1.2.11",
+          "revision": "1.2.11"
+        },
+        {
+          "repository": {
+            "id": "public",
+            "url": "https://package.flythings.cn"
+          },
+          "platform": "V85X",
+          "id": "aw-mpp-uvc",
+          "version": "^1.0.0",
+          "revision": "1.0.0",
+          "systemLibrary": false
+        },
+        {
+          "repository": {
+            "id": "public",
+            "url": "https://package.flythings.cn"
+          },
+          "platform": "V85X",
+          "id": "freetype",
+          "version": "2.2.5",
+          "revision": "2.2.5"
+        }
+      ]
+    },
+    {
+      "repository": {
+        "id": "public",
+        "url": "https://package.flythings.cn"
+      },
+      "platform": "V85X",
+      "id": "ntp",
+      "version": "0.1.0",
+      "revision": "0.1.0"
+    }
+  ]
+}

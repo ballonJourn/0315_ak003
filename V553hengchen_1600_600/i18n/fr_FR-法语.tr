@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Driving records">Enregistrements de conduite</string>
+	<string name="playback">Lecture vidéo</string>
+	<string name="Audio output">Sortie audio</string>
+	<string name="Bluetooth music">Musique Bluetooth</string>
+	<string name="WiFi video">Vidéo WiFi</string>
+	<string name="Tips">Conseils</string>
+	<string name="connected">Connecté</string>
+	<string name="device">Appareil</string>
+	<string name="confirm">Confirmer</string>
+	<string name="cancel">Annuler</string>
+	<string name="Setting">Réglages</string>
+	<string name="connected_carplay_tip">CarPlay connecté</string>
+	<string name="connected_android_auto_tip">Android Auto connecté</string>
+	<string name="Connected CarPlay device">Appareil CarPlay connecté</string>
+	<string name="Connected Android Auto device">Appareil Android Auto connecté</string>
+	<string name="Connected AirPlay device">Appareil AirPlay connecté</string>
+	<string name="Connected Miracast device">Appareil Miracast connecté</string>
+	<string name="Connected Aicast device">Appareil Aicast connecté</string>
+	<string name="change_carplay_tip">Passer en mode "CarPlay" ?</string>
+	<string name="change_auto_tip">Passer en mode "Android Auto" ?</string>
+	<string name="change_airplay_tip">Passer en mode "AirPlay" ?</string>
+	<string name="change_miracast_tip">Passer en mode "Miracast" ?</string>
+	<string name="change_btmusic_tip">Passer en mode 
+"Musique Bluetooth" ?</string>
+	<string name="change_wifivideo_tip">Passer en mode "Vidéo WiFi" ?</string>
+	<string name="change_aicast_tip">Passer en mode "Aicast" ?</string>
+	<string name="Please use your phone to connect to the original car Bluetooth">Veuillez utiliser votre téléphone pour vous connecter au Bluetooth de la voiture d'origine</string>
+	<string name="Audio output from the speaker">Sortie audio depuis le haut-parleur</string>
+	<string name="auxtips">Sortie audio depuis AUX</string>
+	
+	<string name="resolution ratio">Résolution</string>
+	<string name="set_resolution ratio">Résolution</string>
+	<string name="Loop recording">Enregistr ement  en boucle</string>
+	<string name="set_Loop recording">Enregistr ement  en boucle</string>
+	<string name="sound recording">Enregistr ement  sonore</string>
+	<string name="set_sound recording">Enregistr ement  sonore</string>
+	<string name="assist switch">Bouton  auxiliaire</string>
+	<string name="set_assist switch">Bouton  auxiliaire</string>
+	<string name="mirror image">Image  rétroviseur</string>
+	<string name="set_mirror image">Image  rétroviseur</string>
+	<string name="screen saver">Économis eur d'écran</string>
+	<string name="set_screen saver">Économis eur d'écran</string>
+	<string name="Driving Position">Position  de  conduite</string>
+	<string name="set_Driving Position">Position  de  conduite</string>
+	<string name="Split screen mode">Mode écran  partagé  CarPlay/Auto</string>
+	<string name="set_Split screen mode">Mode écran  partagé  CarPlay/Auto</string>
+	<string name="Reverse line calibration">Calibrage deligne inverse</string>
+	<string name="set_Reverse line calibration">Calibrage deligne inverse</string>
+	<string name="Language settings">Révision  langue</string>
+	<string name="set_Language settings">Révision  langue</string>
+	<string name="time setting">Réglages  horaires</string>
+	<string name="set_time setting">Réglages  horaires</string>
+	<string name="clear connect record">Effacer les  Record de connexion</string>
+	<string name="set_clear connect record">Effacer les  Record de connexion</string>
+	<string name="touch sound">Son- tactile</string>
+	<string name="set_touch sound">Son- tactile</string>
+	<string name="Format memory card">Formater</string>
+	<string name="set_Format memory card">Formater</string>
+	<string name="Factory Default">Restaurer  les paramètres</string>
+	<string name="set_Factory Default">Restaurer  les paramètres</string>
+	<string name="Software version">Version</string>
+	<string name="set_Software version">Version</string>
+	<string name="mcu Upgrade">Mise à  jour MCU</string>
+	<string name="set_mcu Upgrade">Mise à  jour MCU</string>
+	<string name="mcu_upgrade_yes">Fichier de mise à jour détecté, 
+voulez-vous mettre à jour ?</string>
+	<string name="mcu_upgrade_no">Aucun fichier de mise à jour détecté</string>
+
+	<string name="mcu_upgrade_done">Mise à jour terminée !</string>
+	<string name="resolution ratio">Résolution</string>
+	<string name="Loop recording">Enregistr-
+ement 
+en boucle</string>
+	<string name="sound recording">Enregistr
+ement 
+sonore</string>
+	<string name="assist switch">Bouton 
+auxiliaire</string>
+	<string name="mirror image">Image 
+rétroviseur</string>
+	<string name="screen saver">Économis-
+eur d'écran</string>
+	<string name="Driving Position">Position 
+de 
+conduite</string>
+	<string name="Split screen mode">Mode écran
+ partagé 
+CarPlay/Auto</string>
+	<string name="Reverse line calibration">Calibrage
+deligne
+inverse</string>
+	<string name="Language settings">Révision 
+langue</string>
+	<string name="time setting">Réglages 
+horaires</string>
+	<string name="clear connect record">Effacer les 
+Record de
+connexion</string>
+	<string name="setclear connect record">Effacer les Record de connexion</string>
+	<string name="touch sound">Son-
+tactile</string>
+	<string name="Format memory card">Formater</string>
+	<string name="Factory Default">Restaurer
+ les para-
+ mètres</string>
+	<string name="Software version">Version</string>
+	<string name="mcu Upgrade">Mise à 
+jour MCU</string>
+	<string name="Debug">Test</string>
+	<string name="Conn_step">Étapes de connexion :</string>
+	<string name="Conn_tips">Conseils :</string>
+	<string name="cp_step1">Sélectionner l'option CarPlay</string>
+	<string name="cp_step2">Connecter Bluetooth avec iPhone, nom Bl-uetooth :</string>
+	<string name="cp_step3">Quand "Utiliser CarPlay de l'iPhone ?" app-araît sur le téléphone, sélectionner l'optio-n CarPlay</string>
+	<string name="cp_tips1">La première connexion prend plus de temps</string>
+	<string name="cp_tips2">Compatible uniquement avec iPhone</string>
+	<string name="cp_tips3">Après la connexion réussie, Bluetooth se déconnecte automatiquement</string>
+	<string name="aa_step1">Sélectionner l'option Android Auto</string>
+	<string name="aa_step2">Connecter Bluetooth avec le téléphone, n-om Bluetooth :</string>
+	<string name="aa_mc_tips1">Compatible uniquement avec téléphones Android</string>
+	<string name="aa_tips2">Vérifiez que l'application Auto et les applications dépendantes sont à jour</string>
+	<string name="ap_step1">Utilisez votre iPhone pour vous connecter au WiFi, nom WiFi :</string>
+	<string name="ap_step2">Mot de passe WiFi :</string>
+	<string name="ap_step3">Dans la recopie d'écran du Centre de cont-rôle de l'iPhone, sélectionnez :</string>
+	<string name="ap_tips1">Compatible uniquement avec iPhone</string>
+	<string name="mc_step1">Ouvrez le téléphone Android et accédez à  l'interface des paramètres système</string>
+	<string name="mc_step2">Trouvez plus de connexions et activez la   projection d'écran du téléphone</string>
+	<string name="mc_step3">Attendez la recherche, nom de l'appareil   de connexion :</string>
+	<string name="ac_step1">Scannez le code QR pour télécharger et installer l'APK AICAST</string>
+	<string name="ac_step2">Cliquez sur ajouter un appareil</string>
+	<string name="ac_step3">Attendez la recherche, nom de l'appareil de connexion :</string>
+	<string name="Turn on device:">Allumer l'appareil :</string>
+	<string name="instructions">Instructions d'utilisation</string>
+	<string name="fmtip">Réglez la radio de votre voiture sur la fréquence mentionnée pour lire le son de l'appareil</string>
+	<string name="horn">Haut-parleur</string>
+	<string name="sure">Confirmer</string>
+	<string name="Restore factory settings">Restaurer les paramètres</string>
+	<string name="set_Restore factory settings">Restaurer les paramètres</string>
+	<string name="Are you sure you want to restore the factory settings">Êtes-vous sûr de 
+vouloir restaurer les 
+paramètres d'usine ?</string>
+	<string name="1080P">1080P</string>
+	<string name="2K">2K</string>
+	<string name="2.5K">2.5K</string>
+	<string name="4K">4K</string>
+	<string name="720P_720P">Avant 720P + Arrière 720P</string>
+	<string name="1080P_1080P">Avant 1080P + Arrière 1080P</string>
+	<string name="2_5K_720P">Avant 2.5K + Arrière 720P</string>
+	<string name="1min">1 minute</string>
+	<string name="3min">3 minutes</string>
+	<string name="5min">5 minutes</string>
+	<string name="close">Fermer</string>
+	<string name="open">Ouvrir</string>
+	<string name="2min">2 minutes</string>
+	<string name="Left hand drive">Conduite à gauche</string>
+	<string name="Right hand drive">Conduite à droite</string>
+	<string name="Full Screen">Mode plein écran</string>
+	<string name="Half screen mode">Mode demi-écran</string>
+	<string name="confirm_switch_link_screen_mode">Activer/désactiver cette fonction déconnectera automatiquement puis reconnectera pour prendre effet, confirmez-vous le changement</string>
+	<string name="settime">Paramètres de l'heure</string>
+	<string name="Do you want to format the storage card">Voulez-vous formater 
+la carte de stockage ?</string>
+	<string name="formating_memory_card">Formatage en cours...</string>
+	<string name="Do you want to clear connect record">Voulez-vous effacer l'historique de
+connexion avec le téléphone
+(Bluetooth, WiFi, projection) ?</string>
+	<string name="wait a moment">Veuillez patienter...</string>
+	<string name="Unknown">Inconnu</string>
+	<string name="no connect">Non connecté</string>
+	<string name="connecting">Connexion en cours</string>
+	<string name="To disconnect from this device?">Êtes-vous sûr de vouloir 
+déconnecter cet appareil ?</string>
+	<string name="Disconnect">Déconnecter</string>
+	<string name="Bluemanage">Gestion Bluetooth</string>
+	<string name="BlueName">Nom Bluetooth :</string>
+	<string name="BlueSwitch">Commutateur Bluetooth :</string>
+	<string name="BlueDev">Appareil distant :</string>
+	<string name="disconnect">Déconnecter :</string>
+	<string name="autoconnect">Connexion automatique :</string>
+	<string name="display">Proportion d'affichage</string>
+	<string name="Sunday">Dimanche</string>
+	<string name="Monday">Lundi</string>
+	<string name="Tuesday">Mardi</string>
+	<string name="Wednesday">Mercredi</string>
+	<string name="Thursday">Jeudi</string>
+	<string name="Friday">Vendredi</string>
+	<string name="Saturday">Samedi</string>
+	<string name="Calibration_instruction">Instructions d'étalonnage</string>
+	<string name="Calib_tips1">Garez la voiture à l'extérieur du garage</string>
+	<string name="Calib_tips2">Ajustez approximativement la position de la ligne de recul en touchant
+l'écran avec le doigt</string>
+	<string name="Calib_tips3">Sauvegarder</string>
+	<string name="Save_calibration">Sauvegarder</string>
+	<string name="Uncalibrate">Annuler</string>
+	<string name="error">Erreur</string>
+	<string name="tfcard_not_found">Carte mémoire non insérée</string>
+	<string name="tfcard_low_capacity">Capacité insuffisante de la carte mémoire</string>
+	<string name="tfcard_format_error">Échec du formatage de la carte mémoire</string>
+	<string name="tfcard_mount_error">Échec du montage de la carte mémoire</string>
+	<string name="tfcard_format_success">Formatage terminé</string>
+	<string name="waiting_for_bt_on">La fonction Bluetooth démarre</string>
+	<string name="waiting_for_bt_off">La fonction Bluetooth s'arrête</string>
+	<string name="lock_this_video">Verrouiller la vidéo actuelle</string>
+	<string name="unlock_this_video">Déverrouiller la vidéo actuelle</string>
+	<string name="ask_delete_file">Êtes-vous sûr de vouloir supprimer le fichier sélectionné ?</string>
+	<string name="rear_camera_detach">La caméra arrière a été débranchée</string>
+	<string name="invalid_tfcard">Le système de fichiers de la carte SD ne répond pas aux exigences
+
+Voulez-vous formater ?</string>
+	<string name="auth_exception">Exception d'autorisation</string>
+	<string name="auth_state">État d'autorisation</string>
+	<string name="auth_tips">1. L'exception d'autorisation Bluetooth peut entraîner l'impossibilité de connecter Bluetooth ou la déconnexion automatique de Bluetooth.
+
+2. L'exception d'autorisation CarPlay peut entraîner l'impossibilité de connecter CarPlay ou la déconnexion automatique de CarPlay.</string>
+	<string name="bluetooth_authorized">Bluetooth autorisé</string>
+	<string name="bluetooth_unauthorized">Bluetooth non autorisé</string>
+	<string name="carplay_authorized">CarPlay autorisé</string>
+	<string name="carplay_unauthorized">CarPlay non autorisé</string>
+	<string name="">Autorisation réussie</string>
+	<string name="wf_tips">Aide pour la connexion vidéo WiFi :</string>
+	<string name="wf_step1">Scannez le QR pour télécharger l'application</string>
+	<string name="wf_step2">Suivez l'application pour connecter au WiFi</string>	
+	<string name="wf_step3">Nom WiFi :</string>
+	<string name="wf_step4">Mot de passe :</string>
+	<string name="wf_step5">Conseil : Cette fonction nécessite une connexion à l'application en mode vidéo WiFi pour fonctionner correctement</string>
+	<string name="Theme A">Thème A</string>
+	<string name="Theme B">Thème B</string>
+	<string name="eyeprotect">Mode protection des yeux</string>
+	<string name="Brightness at night">Luminosité nocturne</string>
+	<string name="starttime">Heure de début</string>
+	<string name="endtime">Heure de fin</string>
+	<string name="hour">Heure</string>
+	<string name="min">Minute</string>
+	<string name="Connected Wifi Video">Vidéo WiFi connectée</string>
+	<string name="sys_setup">Configuration</string>
+    <string name="sys_developer_options">Options développeur</string>
+    <string name="sys_debug_switch">Interrupteur de débogage</string>
+    <string name="sys_net_setup">Paramètres réseau</string>
+    <string name="sys_wifi_setup">Paramètres Wi-Fi</string>
+    <string name="sys_lte4g_setup">Paramètres 4G/LTE</string>
+    <string name="sys_hotspot_setup">Paramètres du point d'accès</string>
+    <string name="sys_ethernet_setup">Paramètres Ethernet</string>
+    <string name="sys_hotspot_switch">Activer le point d'accès</string>
+    <string name="sys_hotspot_name">Nom du point d'accès</string>
+    <string name="sys_hotspot_password">Mot de passe du point d'accès</string>
+    <string name="sys_show_password">Afficher mdp</string>
+    <string name="sys_save">Enregistrer</string>
+    <string name="sys_lang_setup">Paramètres de langue</string>
+    <string name="sys_cancel">Annuler</string>
+    <string name="sys_confirm">Confirmer</string>
+    <string name="sys_lang_switch_tip">Passer la langue système à %s ?</string>
+    <string name="sys_wifi_name">Nom</string>
+    <string name="sys_wifi_encryption_method">Méthode de sécurité</string>
+    <string name="sys_wifi_encryption_encrypted">Chiffré</string>
+    <string name="sys_wifi_encryption_open">Ouvert</string>
+    <string name="sys_wifi_password">Mot de passe</string>
+    <string name="sys_wifi_status">État</string>
+    <string name="sys_wifi_connect">Se connecter</string>
+    <string name="sys_wifi_disconnect">Se déconnecter</string>
+    <string name="sys_wifi_status_authenticating">Authentification en cours</string>
+    <string name="sys_wifi_status_handshake">Obtention de l'adresse IP</string>
+    <string name="sys_wifi_status_connected">Connecté</string>
+    <string name="sys_wifi_ip_addr">Adresse IP</string>
+    <string name="sys_wifi_mac_addr">Adresse MAC</string>
+    <string name="sys_wifi_password_error">Mdp invalide</string>
+    <string name="sys_lte4g_manufacturer">Fabricant</string>
+    <string name="sys_lte4g_version">Version 4G</string>
+    <string name="sys_ethernet_connect_type">Type connexion</string>
+    <string name="sys_ethernet_dynamic_ip">Obtenir automatiquement l'adresse IP</string>
+    <string name="sys_ethernet_static_ip">IP statique</string>
+    <string name="sys_ethernet_ip_addr">Adresse IP</string>
+    <string name="sys_ethernet_mask">Masque</string>
+    <string name="sys_ethernet_gateway">Passerelle</string>
+    <string name="sys_ethernet_first_dns">Serveur DNS principal</string>
+    <string name="sys_ethernet_second_dns">Serveur DNS secondaire</string>
+    <string name="sys_ethernet_save_ok">Enregistré avec succès</string>
+    <string name="sys_ethernet_save_error">Échec de l'enregistrement</string>
+    <string name="sys_touch_calibration">Calibration de l'écran tactile</string>
+    <string name="sys_upgrade">Mise à jour</string>
+    <string name="sys_upgrade_need_reboot">Le système va redémarrer pour la mise à jour.</string>
+    <string name="sys_upgrade_success">Mise à jour réussie, redémarrage imminent.</string>
+    <string name="sys_upgrade_fail">Échec de la mise à jour</string>
+    <string name="sys_upgrade_pack_format_error">Format de mise à jour incorrect. Veuillez régénérer le fichier !</string>
+    <string name="sys_upgrade_type_no_match_error">Le modèle du paquet ne correspond pas !</string>
+    <string name="sys_upgrade_forbid_error">Ne pas mettre à jour !</string>
+    <string name="sys_upgrade_image_size_error">L’image dépasse la taille de la partition – échec de la mise à jour.</string>
+    <string name="sys_upgrade_logo_size_error">Résolution du logo de démarrage trop élevée – échec de la mise à jour.</string>
+    <string name="sys_upgrade_not_support_logo_error">La mise à jour du logo de démarrage n’est pas prise en charge.</string>
+    <string name="sys_exit">Quitter</string>
+    <string name="sys_upgrade_warning">Mise à jour en cours. Ne déconnectez pas l’alimentation.</string>
+    <string name="sys_upgrade_ts_tip_warning">Remarque : après la mise à jour, supprimez le fichier ts.cfg de la carte T pour éviter une mise à jour automatique.</string>
+    <string name="sys_ts_type">Type</string>
+    <string name="sys_ts_version">Version</string>
+    <string name="sys_ts_pix">Résolution</string>
+    <string name="sys_ts_date">Date</string>
+
+	<string name="sys_upgrade_warning">Do not interrupt the power supply during the upgrade process.</string>
+</resources>
