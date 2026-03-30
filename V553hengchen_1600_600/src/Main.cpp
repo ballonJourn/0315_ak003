@@ -56,7 +56,7 @@ void onEasyUIInit(EasyUIContext *pContext) {
 		.setPictureSize({1920, 1080})
 	    .setId(4);
 	mpi::VideoDeviceRegistry::instance().add(mpi::VIDEO_DEVICE_REAR)
-	    .setFrameRate(30)
+	    .setFrameRate(25)
 		.setPictureSize(sys::setting::get_rear_video_resolution())
 //		.setPictureSize({1280, 720})
 	    .setId(8);

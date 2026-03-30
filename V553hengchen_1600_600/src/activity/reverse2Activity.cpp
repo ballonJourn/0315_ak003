@@ -4,6 +4,7 @@
 #include "reverse2Activity.h"
 
 /*TAG:GlobalVariable全局变量*/
+static ZKButton* mdefaultButtonPtr;
 static ZKTextView* mreversevcameraHueTextViewPtr;
 static ZKSeekBar* mHueSeekBarPtr;
 static ZKTextView* mreversevcameraSaturationTextViewPtr;
@@ -55,6 +56,7 @@ typedef struct {
 
 /*TAG:ButtonCallbackTab按键映射表*/
 static S_ButtonCallback sButtonCallbackTab[] = {
+    ID_REVERSE2_defaultButton, onButtonClick_defaultButton,
     ID_REVERSE2_reversevcameraSetButton, onButtonClick_reversevcameraSetButton,
 };
 /***************/
@@ -133,6 +135,7 @@ reverse2Activity::~reverse2Activity() {
     unregisterProtocolDataUpdateListener(onProtocolDataUpdate);
     onUI_quit();
     mActivityPtr = NULL;
+    mdefaultButtonPtr = NULL;
     mreversevcameraHueTextViewPtr = NULL;
     mHueSeekBarPtr = NULL;
     mreversevcameraSaturationTextViewPtr = NULL;
@@ -156,6 +159,7 @@ const char* reverse2Activity::getAppName() const{
 //TAG:onCreate
 void reverse2Activity::onCreate() {
 	Activity::onCreate();
+    mdefaultButtonPtr = (ZKButton*)findControlByID(ID_REVERSE2_defaultButton);
     mreversevcameraHueTextViewPtr = (ZKTextView*)findControlByID(ID_REVERSE2_reversevcameraHueTextView);
     mHueSeekBarPtr = (ZKSeekBar*)findControlByID(ID_REVERSE2_HueSeekBar);if(mHueSeekBarPtr!= NULL){mHueSeekBarPtr->setSeekBarChangeListener(this);}
     mreversevcameraSaturationTextViewPtr = (ZKTextView*)findControlByID(ID_REVERSE2_reversevcameraSaturationTextView);

@@ -27,6 +27,7 @@
 #include "window/ZKSlideWindow.h"
 
 /*TAG:Macro宏ID*/
+#define ID_REVERSE2_defaultButton    20002
 #define ID_REVERSE2_reversevcameraHueTextView    50004
 #define ID_REVERSE2_HueSeekBar    91004
 #define ID_REVERSE2_reversevcameraSaturationTextView    50003

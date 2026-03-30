@@ -1,4 +1,3 @@
-
 /*
  * setting.cpp
  *
@@ -99,6 +98,12 @@
 #define EYE_PROTECTION_SAVE_BRIGHTNESS  "eye_protection_save_brightness"
 
 #define SAVE_BRIGHTNESS    "save_brightness"
+
+// 摄像头参数存储key (持久化到storage, 重启后恢复)
+#define CAMERA_BRIGHTNESS              "camera_brightness"
+#define CAMERA_CONTRAST                "camera_contrast"
+#define CAMERA_SATURATION              "camera_saturation"
+#define CAMERA_HUE                     "camera_hue"
 
 #define FM_FREQUENCY               "fm_frequency"
 #define D_SCREENSAVER_TIME         0
@@ -987,14 +992,20 @@ void setRearCameraChannel(int chn) {
 }
 
 
-// 设置倒车摄像头亮度
+// 设置倒车摄像头亮度 (同时写入V4L2设备和storage持久化)
 void setCameraBrightness(int brightness) {
+	storage::put_int(CAMERA_BRIGHTNESS, brightness);
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);
 		rearVideo.setBrightness(brightness);
 	});
 }
 bool getCameraBrightness(int &brightness) {
+	int val = storage::get_int(CAMERA_BRIGHTNESS, -1);
+	if (val != -1) {
+		brightness = val;
+		return true;
+	}
 	bool ret = false;
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);
@@ -1003,14 +1014,20 @@ bool getCameraBrightness(int &brightness) {
 	});
 	return ret;
 }
-// 设置对比度
+// 设置对比度 (同时写入V4L2设备和storage持久化)
 void setCameraContrast(int contrast) {
+	storage::put_int(CAMERA_CONTRAST, contrast);
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);
 		rearVideo.setContrast(contrast);
 	});
 }
 bool getCameraContrast(int &contrast) {
+	int val = storage::get_int(CAMERA_CONTRAST, -1);
+	if (val != -1) {
+		contrast = val;
+		return true;
+	}
 	bool ret = false;
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);
@@ -1019,14 +1036,20 @@ bool getCameraContrast(int &contrast) {
 	});
 	return ret;
 }
-// 设置饱和度
+// 设置饱和度 (同时写入V4L2设备和storage持久化)
 void setCameraSaturation(int saturation) {
+	storage::put_int(CAMERA_SATURATION, saturation);
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);
 		rearVideo.setSaturation(saturation);
 	});
 }
 bool getCameraSaturation(int &saturation) {
+	int val = storage::get_int(CAMERA_SATURATION, -1);
+	if (val != -1) {
+		saturation = val;
+		return true;
+	}
 	bool ret = false;
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);
@@ -1035,14 +1058,20 @@ bool getCameraSaturation(int &saturation) {
 	});
 	return ret;
 }
-// 设置色度
+// 设置色度 (同时写入V4L2设备和storage持久化)
 void setCameraHue(int hue) {
+	storage::put_int(CAMERA_HUE, hue);
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);
 		rearVideo.setHue(hue);
 	});
 }
 bool getCameraHue(int &hue) {
+	int val = storage::get_int(CAMERA_HUE, -1);
+	if (val != -1) {
+		hue = val;
+		return true;
+	}
 	bool ret = false;
 	NO_EXCEPTION({
 		mpi::SharedVideoDevice rearVideo(mpi::VIDEO_DEVICE_REAR);

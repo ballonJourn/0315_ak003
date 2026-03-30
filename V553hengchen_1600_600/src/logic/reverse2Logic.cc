@@ -207,19 +207,40 @@ static void onUI_init() {
 //	vol = effect? (audio::get_call_vol()) : (audio::get_system_vol());
 	vol = audio::get_system_vol();
 
-	// 初始化摄像头参数SeekBar
-	int brightness = 0, contrast = 0, saturation = 0, hue = 0;
+	// [Fix B] 初始化摄像头参数SeekBar的国际化文本，使用LTOV宏从tr文件读取当前语言翻译
+	mreversevcameraBrightnessPicPtr->setText(LTOV("CameraBrightness"));
+	mreversevcameraContrastTextviewPtr->setText(LTOV("CameraContrast"));
+	mreversevcameraSaturationTextViewPtr->setText(LTOV("CameraSaturation"));
+	mreversevcameraHueTextViewPtr->setText(LTOV("CameraHue"));
+
+	// [Fix C] 初始化摄像头参数SeekBar
+	// 恢复出厂设置后摄像头驱动可能未就绪，getCameraXxx返回false时使用合理默认值
+	const int DEFAULT_BRIGHTNESS = 25;
+	const int DEFAULT_CONTRAST = 55;
+	const int DEFAULT_SATURATION = 55;
+	const int DEFAULT_HUE = 50;
+
+	int brightness = DEFAULT_BRIGHTNESS, contrast = DEFAULT_CONTRAST;
+	int saturation = DEFAULT_SATURATION, hue = DEFAULT_HUE;
 	if (sys::setting::getCameraBrightness(brightness)) {
 		mBrightnessSeekBarPtr->setProgress(brightness);
+	} else {
+		mBrightnessSeekBarPtr->setProgress(DEFAULT_BRIGHTNESS);
 	}
 	if (sys::setting::getCameraContrast(contrast)) {
 		mContrastSeekBarPtr->setProgress(contrast);
+	} else {
+		mContrastSeekBarPtr->setProgress(DEFAULT_CONTRAST);
 	}
 	if (sys::setting::getCameraSaturation(saturation)) {
 		mSaturationSeekBarPtr->setProgress(saturation);
+	} else {
+		mSaturationSeekBarPtr->setProgress(DEFAULT_SATURATION);
 	}
 	if (sys::setting::getCameraHue(hue)) {
 		mHueSeekBarPtr->setProgress(hue);
+	} else {
+		mHueSeekBarPtr->setProgress(DEFAULT_HUE);
 	}
 }
 
@@ -372,4 +393,21 @@ static void onProgressChanged_SaturationSeekBar(ZKSeekBar *pSeekBar, int progres
 static void onProgressChanged_HueSeekBar(ZKSeekBar *pSeekBar, int progress) {
     //LOGD(" ProgressChanged HueSeekBar %d !!!\n", progress);
     sys::setting::setCameraHue(progress);
+}
+static bool onButtonClick_defaultButton(ZKButton *pButton) {
+    const int DEFAULT_BRIGHTNESS = 25;
+    const int DEFAULT_CONTRAST = 55;
+    const int DEFAULT_SATURATION = 55;
+    const int DEFAULT_HUE = 50;
+
+    mBrightnessSeekBarPtr->setProgress(DEFAULT_BRIGHTNESS);
+    mContrastSeekBarPtr->setProgress(DEFAULT_CONTRAST);
+    mSaturationSeekBarPtr->setProgress(DEFAULT_SATURATION);
+    mHueSeekBarPtr->setProgress(DEFAULT_HUE);
+
+    sys::setting::setCameraBrightness(DEFAULT_BRIGHTNESS);
+    sys::setting::setCameraContrast(DEFAULT_CONTRAST);
+    sys::setting::setCameraSaturation(DEFAULT_SATURATION);
+    sys::setting::setCameraHue(DEFAULT_HUE);
+    return false;
 }
